@@ -1,4 +1,4 @@
-#과제 제출 방법
+# 과제 제출 방법
 1. branch에 들어가서 branch 하나를 새로 만들어주세요.
 <br/>(이때 브랜치 이름을 자신의 학번과 깃허브 아이디로 적어주세요.)<br/>
 ![newcns1](https://github.com/2023NewCNSMember/Frontend-Assignment/assets/101560583/f1ad3540-421b-4a59-be16-4774f140eb7d)
