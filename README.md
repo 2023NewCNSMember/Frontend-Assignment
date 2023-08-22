@@ -15,3 +15,7 @@
 
 5. 내용과 제목을 다 적으신 뒤엔 create pull request를 눌러 과제 제출을 해주시면 됩니다.<br/>
 ![newcns5](https://github.com/2023NewCNSMember/Frontend-Assignment/assets/101560583/3ebc2516-fefa-4bf8-a8a2-d4e639256b1e)
+
+# 기타
+과제 제출 기한 : 8/27 23:59 까지<br/>
+문의사항 : 카카오워크 2301 조수현 1:1 채팅
