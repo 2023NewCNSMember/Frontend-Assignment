@@ -10,7 +10,7 @@
 ![Group 3](https://github.com/2023NewCNSMember/Frontend-Assignment/assets/101560583/87ca165b-df46-4003-9912-417cbf8dba9b)
 3. 클론이 되었으면 자신의 branch를 선택한뒤 vsc를 열고 자신의 학번으로 폴더를 새로 열고 개발을 하시면 됩니다.<br/>
 ![newcns3](https://github.com/2023NewCNSMember/Frontend-Assignment/assets/101560583/7b93c510-d7cd-4d99-aef6-51cfeb029295)
-![newcns3-1](https://github.com/2023NewCNSMember/Frontend-Assignment/assets/101560583/07df326c-5afb-4538-a38f-62ad905854b8)
+![newcns333](https://github.com/2023NewCNSMember/Frontend-Assignment/assets/101560583/a75b3a2f-0651-467b-9aa1-8e05ee20e4d4)
 
 4. 만약 개발이 다 된 상태라면 create pull request를 눌러 자신의 학번이름으로 제목을 입력한뒤<br/>
    내용엔 간단한 코드 설명을 적으시면 됩니다.(미리보기 사진이 있으면 더 좋습니다.)<br/>
