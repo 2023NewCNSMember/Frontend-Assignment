@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script>
+    const dataContainer = document.getElementById("dataContainer");
+
+    async function weatherApi() {
+      try {
+        const secretKey =
+          "EMgqEnqkqKmSbz8fPK2k5l7tmQHLmpnDIseKxOr1%2FTUztPnF7Ui%2Ft5sKbZ6u8ltN0wXF5MyS6II%2FjIg7KOy9xw%3D%3D".toString();
+        const { data } = await axios.get(
+          `https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey=${secretKey}&pageNo=1&numOfRows=168&dataType=JSON&base_date=20230827&base_time=0000&nx=55&ny=127`
+        ); //7일치 한번에
+        // const { data } = await axios.get(
+        //   `https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey=${secretKey}&pageNo=1&numOfRows=24&dataType=JSON&base_date=20230827&base_time=0000&nx=55&ny=127`
+        // ); //하루치
+        const items = data.response.body.items.item;
+        const popArray = items.filter((item) => item.category === "POP"); // 강수 확률
+        const tmnArray = items.filter((item) => item.category === "TMN"); // 최저 기온
+        const tmxArray = items.filter((item) => item.category === "TMX"); // 최고 기온
+
+        //TODO 각 날짜별로 필터링 해주고 날짜 POP -> 강수확률
+
+        console.log(popArray);
+        console.log(tmnArray);
+        console.log(tmxArray);
+
+        for (let i = 0; i < popArray.length(); ++i) {
+          let div = document.createElement("div");
+          div.setAttribute("속성", popArray);
+        }
+      } catch (err) {
+        console.log(err);
+      }
+    }
+  </script>
+  <body>
+    <div id="dataContainer"></div>
+    <button onclick="{weatherApi()}">h1</button>
+  </body>
+</html>
