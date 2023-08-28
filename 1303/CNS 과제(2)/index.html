@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>날씨 예보</title>
+    <link rel="stylesheet" type="text/css" href="weathr.css" />
+  </head>
+  <body>
+    <h1>How's the weather?</h1>
+    <p>대구광역시 달성군 구지면</p>
+    <p class="conTent"></p>
+    <table>
+      <tr>
+        <th>n일 후</th>
+        <th>최고/최저(℃)</th>
+        <th>강수량 오전/오후(%)</th>
+      </tr>
+      <tr>
+        <td class="days"></td>
+        <td class="outPut"></td>
+        <td class="output"></td>
+      </tr>
+    </table>
+    <p class="outPut"></p>
+    <p class="output"></p>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./weathr.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  margin-top: 100px;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+  font-family: sans-serif;
+  color: white;
+}
+
+.conTent {
+  margin: 60px;
+  font-size: 80px;
+}
+
+.outPut {
+  font-size: 20px;
+  text-align: center;
+}
+
+.output {
+  font-size: 20px;
+  text-align: center;
+}
+
+table,
+td,
+th {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+table {
+  width: 50%;
+  height: 20vh;
+}
+th {
+  height: 9vh;
+  width: 3vw;
+}
+.days {
+  line-height: 15.5px;
+  font-size: 20px;
+  text-align: center;
+}
+.outPut {
+  line-height: 30px;
+}
+.output {
+  line-height: 30px;
+}
