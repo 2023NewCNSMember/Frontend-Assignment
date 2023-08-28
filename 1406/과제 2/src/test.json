@@ -1,0 +1,30 @@
+{
+    "coord":{"lon":128.55,"lat":35.8},
+    "weather":[
+        {"id":800,"main":"Clear","description":"clear sky","icon":"01n"}
+    ],
+    "base":"stations",
+    "main":{
+        "temp":296.62,
+        "feels_like":297.19,
+        "temp_min":296.51,
+        "temp_max":296.62,
+        "pressure":1009,
+        "humidity":83
+        },
+        "visibility":10000,
+        "wind":{"speed":0.51,"deg":40},
+        "clouds":{"all":0},
+        "dt":1692978695,
+        "sys":{
+            "type":1,
+            "id":8124,
+            "country":"KR",
+            "sunrise":1692996761,
+            "sunset":1693044205
+        },
+        "timezone":32400,
+        "id":1835327,
+        "name":"Daegu",
+        "cod":200
+    }
